@@ -5,10 +5,13 @@
 VAR
 	i: INT;
 	
+	Int2: INT;
 END_VAR
 ]]></Declaration>
     <Implementation>
-      <ST><![CDATA[i:=i+1;]]></ST>
+      <ST><![CDATA[i:=i+1;
+Int2 :=Int2+1;
+]]></ST>
     </Implementation>
   </POU>
 </TcPlcObject>
