@@ -6,11 +6,13 @@ VAR
 	i: INT;
 	
 	Int2: INT;
+	Int3: INT;
 END_VAR
 ]]></Declaration>
     <Implementation>
       <ST><![CDATA[i:=i+1;
 Int2 :=Int2+1;
+Int3 :=Int3+1;
 ]]></ST>
     </Implementation>
   </POU>
